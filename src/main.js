@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import 'vueify/lib/insert-css';
+import Home from './Home.vue'
 
-Vue.config.productionTip = false;
-
+Vue.component('basemap-status', Home)
 new Vue({
   el: '#app',
   render: h => h(App)
